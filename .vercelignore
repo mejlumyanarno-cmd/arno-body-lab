@@ -1,0 +1,17 @@
+node_modules
+.next
+out
+dist
+.env
+.env*.local
+coverage
+*.log
+.vercel
+.DS_Store
+.edge-profile*
+.edge-audit-cdp
+_audit_text_layout
+_audit_text_layout_after
+preview-*.png
+dev-server*.log
+tsconfig.tsbuildinfo
