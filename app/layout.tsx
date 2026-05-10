@@ -26,6 +26,15 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website"
   },
+  icons: {
+    icon: [
+      {
+        url: "/favicon.svg",
+        type: "image/svg+xml"
+      }
+    ],
+    shortcut: "/favicon.svg"
+  },
   twitter: {
     card: "summary_large_image",
     title: `${siteConfig.name} | ${siteConfig.title}`,

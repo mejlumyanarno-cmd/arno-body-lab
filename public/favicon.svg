@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ARN logo">
+  <defs>
+    <linearGradient id="mark-bg" x1="10" y1="8" x2="54" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111111" />
+      <stop offset="1" stop-color="#050505" />
+    </linearGradient>
+    <linearGradient id="mark-red" x1="14" y1="13" x2="50" y2="51" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff493d" />
+      <stop offset="1" stop-color="#b60d12" />
+    </linearGradient>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity="0.45" />
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="10" fill="url(#mark-bg)" />
+  <path d="M11 14H53V50H11V14Z" fill="none" stroke="url(#mark-red)" stroke-width="4" />
+  <path d="M18 45V20H25.2L31.8 34.4L38.5 20H46V45H40.6V29.3L34.2 42H29.4L23.1 29.3V45H18Z" fill="#f7efe7" filter="url(#soft-shadow)" />
+  <path d="M17 19H47" stroke="#f7efe7" stroke-width="2" stroke-linecap="square" opacity="0.22" />
+</svg>
